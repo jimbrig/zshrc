@@ -4,7 +4,7 @@ main () {
   set -e
   set -u
 
-  repo='makenew/zshrc'
+  repo='jimbrig/zshrc'
 
   config_home=${XDG_CONFIG_HOME:-$HOME/.config}
   cache_home=${XDG_CACHE_HOME:-$HOME/.config}

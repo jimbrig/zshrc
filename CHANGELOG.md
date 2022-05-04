@@ -7,4 +7,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/makenew/zshrc/compare/v0.0.0...HEAD
+[Unreleased]: https://github.com/jimbrig/zshrc/compare/v1.0.0...HEAD
