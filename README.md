@@ -18,17 +18,16 @@ Overall configuration then follows a normal plugin structure.
 
 Display documentation of this Zsh configuration with
 
+```bash
+man zshrc
 ```
-$ man zshrc
-```
-
 
 ## Installation
 
 Due to the bootstrapping problem,
 `ZDOTDIR` must be set on zsh initialization by adding the line
 
-```
+```bash
 export ZDOTDIR=$HOME/.config/zsh
 ```
 
@@ -38,14 +37,14 @@ to either `/etc/zsh/zshenv` or `~/.zshenv`.
 
 You can install this via the command-line with either curl
 
-```
-$ curl -L https://git.io/vH987 | sh
+```bash
+curl -L https://raw.githubusercontent.com/jimbrig/zshrc/gh-pages/install.sh | sh
 ```
 
 or wget
 
-```
-$ wget https://git.io/vH987 -O - | sh
+```bash
+wget https://raw.githubusercontent.com/jimbrig/zshrc/gh-pages/install.sh -O - | sh
 ```
 
 ### Manual Install
